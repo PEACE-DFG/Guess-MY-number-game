@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/all.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body onload="message()" >
+    <div class="wrapper">
+        <video autoplay muted loop class="vik">
+            <source src="video/wave-cafe-video-bg.mp4" type="video/mp4"  >
+        </video>
+        </div>
+
+    <section class="container  mb-5 border p-5 text-center first ">
+
+        <section class="mb-3">
+            <h2 class="text-center">Number Guessing Game</h2>
+
+            <h5 class="text-center">Click the buttons below to see if your number will correlate with mine</h5>
+
+            <small  ><b >NOTE:</b> Keep pressing the button till it matches</small>
+
+
+            <p>The Random Values are:</p>
+            
+            <p id="display" class="text-danger" style="font-size: 30px;"></p>
+            <p id="word" class="text-warning" style="font-size: 20px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"></p>
+        </section>
+
+
+        <div class="container d-grid gap-2 col-6 mx-auto ">
+            <button class="btn" onclick="output('0')" type="button">0</button>
+            <button class="btn " onclick="output('1')" type="button">1</button>
+            <button class="btn " onclick="output('2')" type="button">2</button>
+            <button class="btn" onclick="output('3')" type="button">3</button>
+            <button class="btn " onclick="output('4')" type="button">4</button>
+            <button class="btn" onclick="output('5')" type="button">5</button>
+            <button class="btn" onclick="output('6')" type="button">6</button>
+            <button class="btn" onclick="output('7')" type="button">7</button>
+            <button class="btn " onclick="output('8')" type="button">8</button>
+            <button class="btn " onclick="output('9')" type="button">9</button>
+
+          </div>
+
+          <footer>
+            <i>Follow me to check out my works on Github</i>
+            <a href=""><i class="fab fa-github" style="font-size: 40px; color:whitesmoke"></i></a>
+          </footer>
+
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
